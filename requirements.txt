@@ -1,0 +1,9 @@
+# 官方运行环境（规则第 7 条）已内置 PyTorch 2.10.0 + torchvision（CUDA 12.8 / cuDNN 9），
+# 因此这里不钉死 torch 版本，避免把官方镜像降级。
+# 本地开发用 torch 2.5.1 + torchvision 0.20.1，代码对两者均兼容。
+timm>=1.0.11
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+Pillow>=10.2
+openpyxl>=3.1

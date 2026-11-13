@@ -1,0 +1,35 @@
+{
+  "source": "NCCCU AI Challenge 2026 official split (chest X-ray multi-label)",
+  "note": "Counts were recomputed from the official train/valid/test CSV files and image folders. The dataset does not provide a class-id-to-name mapping, so classes are referenced by official id 1-10.",
+  "splits": {
+    "train": {
+      "studies": 18513,
+      "subjects": 11055,
+      "images": 30344,
+      "labels_per_study": {"1": 11597, "2": 3659, "3": 2197, "4": 840, "5": 185, "6": 34, "7": 1},
+      "class_positive_studies": {"1": 622, "2": 900, "3": 942, "4": 1436, "5": 2404, "6": 3885, "7": 3968, "8": 4508, "9": 4654, "10": 6683},
+      "view_position_images": {"AP": 12152, "PA": 7604, "LATERAL": 6554, "LL": 2831, "PA LLD": 1},
+      "view_position_missing_or_other": 1202
+    },
+    "valid": {
+      "studies": 859,
+      "subjects": 228,
+      "images": 1422,
+      "multi_image_studies": 468,
+      "labels_per_study": {"1": 511, "2": 170, "3": 131, "4": 39, "5": 8},
+      "class_positive_studies": {"1": 24, "2": 37, "3": 46, "4": 68, "5": 115, "6": 177, "7": 193, "8": 214, "9": 260, "10": 306},
+      "view_position_images": {"AP": 584, "PA": 364, "LATERAL": 284, "LL": 151},
+      "view_position_missing_or_other": 39
+    },
+    "test": {
+      "studies": 1414,
+      "subjects": 136,
+      "images": 2218
+    }
+  },
+  "leakage_check": {
+    "train_valid_subject_overlap": 0,
+    "train_test_subject_overlap": 0,
+    "valid_test_subject_overlap": 0
+  }
+}

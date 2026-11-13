@@ -1,0 +1,356 @@
+{
+  "checkpoints": [
+    "r4_convnext_320_best.pt",
+    "r6_convnext_320_s123_best.pt"
+  ],
+  "device": "cuda",
+  "tta": false,
+  "n_images": 1422,
+  "n_studies": 859,
+  "class_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "image_level": {
+    "macro_auc": 0.8069625687009804,
+    "valid_classes": 10,
+    "per_class": [
+      {
+        "class_index": 0,
+        "positives": 35,
+        "auc": 0.7287671232876713,
+        "auprc": 0.08437544340686189
+      },
+      {
+        "class_index": 1,
+        "positives": 57,
+        "auc": 0.8272733114838378,
+        "auprc": 0.23726671784395625
+      },
+      {
+        "class_index": 2,
+        "positives": 63,
+        "auc": 0.7717392573904716,
+        "auprc": 0.16784977730286268
+      },
+      {
+        "class_index": 3,
+        "positives": 102,
+        "auc": 0.7498068924539512,
+        "auprc": 0.20296712519363871
+      },
+      {
+        "class_index": 4,
+        "positives": 158,
+        "auc": 0.8915563411312291,
+        "auprc": 0.41154835445362054
+      },
+      {
+        "class_index": 5,
+        "positives": 255,
+        "auc": 0.7938639380345112,
+        "auprc": 0.4182074191288419
+      },
+      {
+        "class_index": 6,
+        "positives": 297,
+        "auc": 0.8034448185559298,
+        "auprc": 0.49555362202285425
+      },
+      {
+        "class_index": 7,
+        "positives": 315,
+        "auc": 0.7037495877604278,
+        "auprc": 0.3947361889723806
+      },
+      {
+        "class_index": 8,
+        "positives": 375,
+        "auc": 0.9182858962113977,
+        "auprc": 0.7827024960479891
+      },
+      {
+        "class_index": 9,
+        "positives": 582,
+        "auc": 0.8811385207003763,
+        "auprc": 0.8491649344345059
+      }
+    ]
+  },
+  "study_level": {
+    "mean": {
+      "macro_auc": 0.7994048831954597,
+      "valid_classes": 10,
+      "per_class": [
+        {
+          "class_index": 0,
+          "positives": 24,
+          "auc": 0.6786427145708582,
+          "auprc": 0.07263798203398038
+        },
+        {
+          "class_index": 1,
+          "positives": 37,
+          "auc": 0.8367856908002894,
+          "auprc": 0.2878655385393352
+        },
+        {
+          "class_index": 2,
+          "positives": 46,
+          "auc": 0.7697737846943686,
+          "auprc": 0.20302623223775
+        },
+        {
+          "class_index": 3,
+          "positives": 68,
+          "auc": 0.7608574403212612,
+          "auprc": 0.23779639374471045
+        },
+        {
+          "class_index": 4,
+          "positives": 115,
+          "auc": 0.8804873772791024,
+          "auprc": 0.43769260808988
+        },
+        {
+          "class_index": 5,
+          "positives": 177,
+          "auc": 0.7724456152558941,
+          "auprc": 0.43631606961106295
+        },
+        {
+          "class_index": 6,
+          "positives": 193,
+          "auc": 0.789867587795049,
+          "auprc": 0.5011691858123449
+        },
+        {
+          "class_index": 7,
+          "positives": 214,
+          "auc": 0.7175179308845903,
+          "auprc": 0.43927110172289274
+        },
+        {
+          "class_index": 8,
+          "positives": 260,
+          "auc": 0.9062219083087197,
+          "auprc": 0.7846030884079064
+        },
+        {
+          "class_index": 9,
+          "positives": 306,
+          "auc": 0.8814487820444633,
+          "auprc": 0.836696666404946
+        }
+      ]
+    },
+    "max": {
+      "macro_auc": 0.793888154944924,
+      "valid_classes": 10,
+      "per_class": [
+        {
+          "class_index": 0,
+          "positives": 24,
+          "auc": 0.6752994011976048,
+          "auprc": 0.08790003907416458
+        },
+        {
+          "class_index": 1,
+          "positives": 37,
+          "auc": 0.8570066416781745,
+          "auprc": 0.29011485289544836
+        },
+        {
+          "class_index": 2,
+          "positives": 46,
+          "auc": 0.7626076260762609,
+          "auprc": 0.1969047075493014
+        },
+        {
+          "class_index": 3,
+          "positives": 68,
+          "auc": 0.7400535435413104,
+          "auprc": 0.2197674423832565
+        },
+        {
+          "class_index": 4,
+          "positives": 115,
+          "auc": 0.8739656381486677,
+          "auprc": 0.4185424007345751
+        },
+        {
+          "class_index": 5,
+          "positives": 177,
+          "auc": 0.7572858160611031,
+          "auprc": 0.4211636356255517
+        },
+        {
+          "class_index": 6,
+          "positives": 193,
+          "auc": 0.7886850581151099,
+          "auprc": 0.5038044982832053
+        },
+        {
+          "class_index": 7,
+          "positives": 214,
+          "auc": 0.7028109831196118,
+          "auprc": 0.41681798094536743
+        },
+        {
+          "class_index": 8,
+          "positives": 260,
+          "auc": 0.9042506742005907,
+          "auprc": 0.782164630631437
+        },
+        {
+          "class_index": 9,
+          "positives": 306,
+          "auc": 0.8769161673108061,
+          "auprc": 0.8281648548161573
+        }
+      ]
+    },
+    "meanmax": {
+      "macro_auc": 0.7985357136997128,
+      "valid_classes": 10,
+      "per_class": [
+        {
+          "class_index": 0,
+          "positives": 24,
+          "auc": 0.6794910179640719,
+          "auprc": 0.07934044922591268
+        },
+        {
+          "class_index": 1,
+          "positives": 37,
+          "auc": 0.8486881041625567,
+          "auprc": 0.30517613259748777
+        },
+        {
+          "class_index": 2,
+          "positives": 46,
+          "auc": 0.7670196267180063,
+          "auprc": 0.1994598179549669
+        },
+        {
+          "class_index": 3,
+          "positives": 68,
+          "auc": 0.7535881609280881,
+          "auprc": 0.23162328145708183
+        },
+        {
+          "class_index": 4,
+          "positives": 115,
+          "auc": 0.8792601683029453,
+          "auprc": 0.4360032381486519
+        },
+        {
+          "class_index": 5,
+          "positives": 177,
+          "auc": 0.7672763722517687,
+          "auprc": 0.43988173224108107
+        },
+        {
+          "class_index": 6,
+          "positives": 193,
+          "auc": 0.7910890164776175,
+          "auprc": 0.5033773734744578
+        },
+        {
+          "class_index": 7,
+          "positives": 214,
+          "auc": 0.7126494240382526,
+          "auprc": 0.43424498752237806
+        },
+        {
+          "class_index": 8,
+          "positives": 260,
+          "auc": 0.9063888532169,
+          "auprc": 0.7852377278454814
+        },
+        {
+          "class_index": 9,
+          "positives": 306,
+          "auc": 0.8799063929369216,
+          "auprc": 0.8357648759399584
+        }
+      ]
+    },
+    "noisyor": {
+      "macro_auc": 0.7694501604302405,
+      "valid_classes": 10,
+      "per_class": [
+        {
+          "class_index": 0,
+          "positives": 24,
+          "auc": 0.6298403193612774,
+          "auprc": 0.1052418575589737
+        },
+        {
+          "class_index": 1,
+          "positives": 37,
+          "auc": 0.853093969882291,
+          "auprc": 0.2415174191481834
+        },
+        {
+          "class_index": 2,
+          "positives": 46,
+          "auc": 0.7515909941708113,
+          "auprc": 0.10955686328090616
+        },
+        {
+          "class_index": 3,
+          "positives": 68,
+          "auc": 0.691827173347215,
+          "auprc": 0.1523556929057892
+        },
+        {
+          "class_index": 4,
+          "positives": 115,
+          "auc": 0.861541608228144,
+          "auprc": 0.414835352458652
+        },
+        {
+          "class_index": 5,
+          "positives": 177,
+          "auc": 0.7240750865682523,
+          "auprc": 0.3887243820599764
+        },
+        {
+          "class_index": 6,
+          "positives": 193,
+          "auc": 0.7816910174423127,
+          "auprc": 0.4755465577308886
+        },
+        {
+          "class_index": 7,
+          "positives": 214,
+          "auc": 0.6395638629283489,
+          "auprc": 0.3468558396465793
+        },
+        {
+          "class_index": 8,
+          "positives": 260,
+          "auc": 0.8903300372415565,
+          "auprc": 0.7430926651139833
+        },
+        {
+          "class_index": 9,
+          "positives": 306,
+          "auc": 0.8709475351321964,
+          "auprc": 0.8198909397155923
+        }
+      ]
+    }
+  },
+  "primary_aggregation": "mean",
+  "note": "Validation split: 859 studies / 1422 images. No TTA. Study aggregation = arithmetic mean. Generated by tools/eval_study.py."
+}

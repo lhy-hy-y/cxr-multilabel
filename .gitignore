@@ -1,0 +1,28 @@
+# Data and model weights
+data/
+model/
+pretrain_model/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Runs and generated outputs
+runs/
+work/
+submission*.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
